@@ -1,0 +1,13 @@
+.Phone {
+  position: absolute;
+  top: calc(50% - 2.5vw);
+  left: calc(50% - 4.5vw);
+  > p {
+    font-size: 3vw;
+    font-weight: bold;
+    > a {
+      text-decoration: none;
+      letter-spacing: .5vw;
+    }
+  }
+}

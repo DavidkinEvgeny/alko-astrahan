@@ -1,0 +1,17 @@
+.Social {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  > ul {
+    width: 30vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    > li {
+      list-style: none;
+      > a {
+        font-size: 3vw;
+      }
+    }
+  }
+}
