@@ -7,9 +7,8 @@ import Phone from '../Phone'
 export default function Header() {
   return (
     <div className='Header' style={{backgroundImage: `url(${bg})`}}>
-      <Social />
-      <Phone />
-      header
+      <Social position={'header'} />
+      <Phone position={'header'} />
     </div>
   )
 }

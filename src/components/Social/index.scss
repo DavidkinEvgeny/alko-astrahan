@@ -1,7 +1,19 @@
 .Social {
-  position: absolute;
-  top: 20px;
-  right: 0;
+  &__header {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    > ul > li > a {
+      color: rgba(#AD009F, 1);
+    }
+  }
+  &__footer {
+    display: flex;
+    justify-content: center;
+    > ul > li > a {
+      color: antiquewhite;
+    }
+  }
   > ul {
     width: 30vw;
     display: flex;
@@ -11,6 +23,18 @@
       list-style: none;
       > a {
         font-size: 3vw;
+      }
+    }
+    @media(max-width: 1024px) {
+      width: 50vw;
+      > li > a {
+        font-size: 5vw;
+      }
+    }
+    @media(max-width: 640px) {
+      width: 70vw;
+      > li > a {
+        font-size: 7vw;
       }
     }
   }
